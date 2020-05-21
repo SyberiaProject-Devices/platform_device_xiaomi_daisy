@@ -3,3 +3,6 @@ userdebug_or_eng(`
 ')
 
 dontaudit hal_rcsservice diag_device:chr_file rw_file_perms;
+
+# add imsfactory to HIDl interface
+add_hwservice(hal_rcsservice, hal_imsfactory_hwservice)
