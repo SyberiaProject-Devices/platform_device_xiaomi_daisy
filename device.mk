@@ -500,10 +500,13 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
+    vendor.qti.hardware.wifi.hostapd@1.0 \
     vendor.qti.hardware.wifi.hostapd@1.1 \
+    vendor.qti.hardware.wifi.supplicant@2.0 \
     vendor.qti.hardware.wifi.supplicant@2.1 \
     libcld80211 \
     libQWiFiSoftApCfg \
+    libwifi-hal-qcom \
     libwpa_client \
     hostapd \
     dhcpcd.conf \
