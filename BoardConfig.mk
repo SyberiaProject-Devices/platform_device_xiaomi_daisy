@@ -206,9 +206,6 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
-# Telephony
-TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
-
 # SurfaceFlinger
 TARGET_USE_QCOM_SURFACEFLINGER := true
 
